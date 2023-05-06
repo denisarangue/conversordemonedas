@@ -1,0 +1,94 @@
+body{
+    background-color: #222;
+    color: white;
+    font-family: 'Pathway Extreme', sans-serif;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    text-align: center;
+    width: 300px;
+    margin: 30px auto 0px auto;
+}
+main{
+    width: 300px;
+    margin: 30px auto 0px auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 18px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    width: 236px;
+    border: 1px solid #222;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 200;
+    font-size: 18px;
+}
+input[type="submit"]{
+    background-color: #fdbd0c;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 100%;
+}
+select{
+    font-family: 'Pathway Extreme', sans-serif;
+    width: 100%;
+    border: 1px solid #222;
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 18px;
+}
+footer{
+    background-color: #fdbd0c;
+    color: #222;
+    width: 100%;
+    font-weight: 100;
+}
+
+/* IDs */
+#euros{
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 20px;
+    background-color: #ced4da;
+    border: 1px solid #222;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+#resultado{
+    font-family: 'Pathway Extreme', sans-serif;
+    width: 280px;
+    border: 1px solid #222;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 18px;
+}
+#error{
+    text-align: center;
+    color: #fdbd0c;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#obligatorio{
+    font-size: 12px;
+}
